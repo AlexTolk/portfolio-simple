@@ -22,7 +22,6 @@ main {
   font-family: Roboto;
 }
 main img {
-  max-width: 100vw;
   max-height: 50vh;
 }
 footer {
@@ -59,4 +58,29 @@ a {
 }
 .supsection img {
   max-width: 100%;
+}
+.title-content {
+  max-width: 50%;
+  font-family: Roboto;
+
+}
+.title-content p {
+  font-size: 1.5rem;
+}
+.stack-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 7rem 5rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: rgba(238, 231, 235, 0.8);
+}
+.stack {
+  justify-content: space-around;
+}
+.stack img {
+  max-height: 25vh;
+  padding: 2rem;
 }
