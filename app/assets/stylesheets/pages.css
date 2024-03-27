@@ -1,0 +1,40 @@
+
+header {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgba(51, 3, 28, 0.8);
+  color: white;
+  position: sticky;
+}
+header li {
+  display: inline-block;
+  padding: 0.5rem;
+  align-content: center;
+}
+main {
+  padding: 2rem 3rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 1rem 0;
+  font-family: Roboto;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
